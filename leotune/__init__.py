@@ -6,8 +6,7 @@ class Constants(object):
     STR_BASE = "\x1b[%s;3%sm%s\x1b[0m"
     STR_BASE_L = STR_BASE % (1, "%s", "%s")
 rs = random.Random(time.localtime().tm_sec)
-def lyricsfortune(lyrics:list=data.leoneed.lyrics):
-    item = rs.choice(lyrics)
+def lyricsdisplay(item:dict):
     assert len(item["content"]) == len(item["translation"])
     print()
     enders = []
@@ -23,3 +22,6 @@ def lyricsfortune(lyrics:list=data.leoneed.lyrics):
     print("\t---- %s \"%s\"" % (item["author"], item["title"]))
     print("\tfeaturing: %s" % item["vocal"])
     print()
+def lyricsfortune(lyrics:list=data.leoneed.lyrics):
+    return lyricsdisplay(rs.choice(lyrics))
+    
