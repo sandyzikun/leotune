@@ -19,7 +19,7 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         "content": [
             (6, "取り戻したい　ヒーローみたいに"),
             (6, "苦笑いバイバイはもういいよ"),
-            (4, "泣くときは教えてよ　絶対")
+            (4, "泣くときは教えてよ　絶対"),
         ],
         "translation": [
             "我想如英雄般　恢復到從前",

@@ -1,4 +1,3 @@
-from . import data
-from . import lyricsfortune
+from . import cli
 if __name__ == "__main__":
-    lyricsfortune(data.leoneed.lyrics)
+    cli.init()
