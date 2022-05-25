@@ -1,3 +1,20 @@
+# (Processing of Lyrics)
+# GNU General Public License v3.0,
+#             Copyright (C) 2022 凪坤 (GitHub ID: sandyzikun)
+# -*-
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# -*-
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# -*-
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+# -*-
 from . import data
 import random, time, re
 class Constants(object):
@@ -23,9 +40,12 @@ def display(item: dict):
             print(each, end=enders[0])
             k += 1
         print()
-    print(" " * 8 + "---- %s %s" % (item["author"], Constants.STR_BASE_L % (6, item["title"])))
+    authorstring = " " * 8 + "---- %s %s" % (item["author"] if isinstance(item["author"], str) else " ".join(item["author"]), Constants.STR_BASE_L % (6, item["title"]))
+    print(authorstring)
     if "vocal" in item:
-        print(" " * 4 + "featuring: %s" % item["vocal"])
+        featvocal = " " * 4 + "featuring: %s" % (item["vocal"] if isinstance(item["vocal"], str) else ", ".join(item["vocal"]))
+        for k_line in range(len(featvocal) // len(authorstring) + 1):
+            print(featvocal[ k_line * len(authorstring) : (k_line + 1) * len(authorstring) ])
     print()
     return item
 def fortune(source: str):

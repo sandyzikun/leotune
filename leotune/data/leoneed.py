@@ -1,8 +1,25 @@
-lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌曲>
+# (Lyrics from `Leo/need`, which is a group of virtual artists, Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌曲>)
+# GNU General Public License v3.0,
+#             Copyright (C) 2022 凪坤 (GitHub ID: sandyzikun)
+# -*-
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# -*-
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# -*-
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+# -*-
+lyrics = [
     {
-        "author": "DECO*27 & Rockwell",
+        "author": [ "DECO*27", "& Rockwell" ],
         "title": "needLe",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "繋げよう　断線したストーリー"),
             (6, "進めよう　ワンテンポ日常に"),
@@ -13,9 +30,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "DECO*27 & Rockwell",
+        "author": [ "DECO*27", "& Rockwell" ],
         "title": "needLe",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "取り戻したい　ヒーローみたいに"),
             (6, "苦笑いバイバイはもういいよ"),
@@ -28,9 +45,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "DECO*27 & Rockwell",
+        "author": [ "DECO*27", "& Rockwell" ],
         "title": "needLe",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "どうだっていい存在じゃない"),
             (6, "簡単に愛は終わらないよ"),
@@ -41,9 +58,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "DECO*27 & Rockwell",
+        "author": [ "DECO*27", "& Rockwell" ],
         "title": "needLe",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "離れ離れも　揺れる想いも"),
             (6, "答えを聞かせて"),
@@ -54,9 +71,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "DECO*27 & Rockwell",
+        "author": [ "DECO*27", "& Rockwell" ],
         "title": "needLe",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "すれ違う前のセカイまで"),
         ],
@@ -65,7 +82,7 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Marasy",
+        "author": [ "Marasy" ],
         "title": "青く駆けろ！",
         "vocal": "miku, meiko, 未來 明, 富士 葵, YuNi, 星乃 一歌",
         "content": [
@@ -78,9 +95,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Jin (自然の敵P)",
+        "author": [ "Jin (自然の敵P)" ],
         "title": "stella",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "これはそう、今日を諦めなかった故の物語"),
         ],
@@ -89,9 +106,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Eve",
+        "author": [ "Eve" ],
         "title": "Dramaturgy",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "さあ皆必死に役を演じて傍観者なんていないのさ"),
         ],
@@ -100,9 +117,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Orangestar",
+        "author": [ "Orangestar" ],
         "title": "霽れを待つ",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "私だけ生きて行くの？"),
         ],
@@ -111,9 +128,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "OneRoom (Jimmy-P)",
+        "author": [ "OneRoom (Jimmy-P)" ],
         "title": "from Y to Y",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "願うことさえ許されない世界なのかな"),
             (6, "たった一つの嘘でさえも"),
@@ -126,9 +143,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "OneRoom (Jimmy-P)",
+        "author": [ "OneRoom (Jimmy-P)" ],
         "title": "from Y to Y",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "数え切れないほどの罪を重ねてきた"),
             (6, "その手に触れたこと"),
@@ -141,9 +158,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "164 (竹本 廣志)",
+        "author": [ "164 (竹本 廣志)" ],
         "title": "「1」",
-        "vocal": "luka",
+        "vocal": [ "luka" ],
         "content": [
             (2, "見た事のない世界へ"),
         ],
@@ -152,9 +169,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "夏代 孝明 & 渡辺 拓也",
+        "author": [ "夏代 孝明", "& 渡辺 拓也" ],
         "title": "From Tokyo",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "それは　雑踏の海の中で"),
             (6, "踊るように燃えている誰かの声"),
@@ -169,9 +186,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "夏代 孝明 & 渡辺 拓也",
+        "author": [ "夏代 孝明", "& 渡辺 拓也" ],
         "title": "From Tokyo",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (6, "きっと　ボクらの出会いだって"),
             (6, "この空の下にある小さなセカイ"),
@@ -186,9 +203,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "夏代 孝明 & 渡辺 拓也",
+        "author": [ "夏代 孝明", "& 渡辺 拓也" ],
         "title": "From Tokyo",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (3, "あの日のボクらが"),
             (3, "この街で僕らになれますように"),
@@ -199,9 +216,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "BASYAUMA RECORDS (*Luna & Bibi & Haluo & Omutatsu)",
+        "author": [ "BASYAUMA RECORDS", "(*Luna", "& Bibi", "& Haluo", "& Omutatsu)" ],
         "title": "Pulse of The Meteor",
-        "vocal": "len",
+        "vocal": [ "len" ],
         "content": [
             (4, "あの日と同じ　星を僕ら"),
             (4, "目印にして　声を重ねた"),
@@ -212,9 +229,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ],
     },
     {
-        "author": "BUMP OF CHICKEN",
+        "author": [ "BUMP OF CHICKEN" ],
         "title": "Hello, world!",
-        "vocal": "藤原 基央",
+        "vocal": [ "藤原 基央" ],
         "content": [
             (3, "顔を上げて"),
             (1, "黒い目の人"),
@@ -229,9 +246,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Harry-P (針原 翼)",
+        "author": [ "Harry-P (針原 翼)" ],
         "title": "STAGE OF SEKAI",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (4, "君が輝ける場所はここだよ"),
         ],
@@ -240,9 +257,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "Harry-P (針原 翼)",
+        "author": [ "Harry-P (針原 翼)" ],
         "title": "STAGE OF SEKAI",
-        "vocal": "miku",
+        "vocal": [ "miku" ],
         "content": [
             (1, "君に届けよう"),
         ],
@@ -251,9 +268,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "傘村トータ & 村田祐一",
+        "author": [ "傘村トータ", "& 村田祐一" ],
         "title": "Order Made",
-        "vocal": "luka..., flower, kokone, akari, ia, gumi,\n洛 天依, kaori, iroha, mew, yukari, ken, fukase",
+        "vocal": [ "luka", "miku", "len", "rin", "kaito", "flower", "kokone", "akari", "ia", "gumi", "洛 天依", "kaori", "iroha", "mew", "yukari", "ken", "fukase" ],
         "content": [
             (1, "僕らの言葉が届くように"),
         ],
@@ -262,9 +279,9 @@ lyrics = [ # Lyrics Data from <https://zh.moegirl.org.cn/zh-hk/Leo/need演唱歌
         ]
     },
     {
-        "author": "傘村トータ & 村田祐一",
+        "author": [ "傘村トータ", "& 村田祐一" ],
         "title": "Order Made",
-        "vocal": "luka..., flower, kokone, akari, ia, gumi,\n洛 天依, kaori, iroha, mew, yukari, ken, fukase",
+        "vocal": [ "luka", "miku", "len", "rin", "kaito", "flower", "kokone", "akari", "ia", "gumi", "洛 天依", "kaori", "iroha", "mew", "yukari", "ken", "fukase" ],
         "content": [
             (4, "僕らの想いが響くように"),
         ],
