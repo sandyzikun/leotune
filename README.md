@@ -2,7 +2,7 @@
 
 A Simple Python-based CLI-tool throwing out lyrics of VOCALOID works, which is similar to `fortune`.
 
-![](leotune-screenshot-intro.jpeg)
+![](https://github.com/sandyzikun/leotune/raw/init/leotune-screenshot-intro.jpeg)
 
 ## Installation
 
@@ -59,4 +59,4 @@ $ leotune -s others
 
 (Screenshot)
 
-![](leotune-screenshot-fromothers.jpeg)
+![](https://github.com/sandyzikun/leotune/raw/init/leotune-screenshot-fromothers.jpeg)
